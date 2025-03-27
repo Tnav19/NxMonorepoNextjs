@@ -1,0 +1,28 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/monoNext-e2e"
+    },
+    {
+      "path": "./apps/monoNext"
+    },
+    {
+      "path": "./apps/ecommerce/ecommerce-platform"
+    },
+    {
+      "path": "./apps/ecommerce/fashion-store"
+    },
+    {
+      "path": "./apps/ecommerce/food-delivery"
+    },
+    {
+      "path": "./apps/ecommerce/grocery-app"
+    },
+    {
+      "path": "./apps/ecommerce/subscription-service"
+    }
+  ]
+}
